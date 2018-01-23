@@ -4,7 +4,7 @@
 DEFINE ("dbhost", "localhost");
 DEFINE ("dbuser", "root");
 DEFINE ("dbpw", "");
-DEFINE ("dbname", "tischsystem");
+DEFINE ("dbname", "Tablebooker");
 
 //global $dbconn;
 $dbconn = new mysqli(dbhost, dbuser, dbpw, dbname);

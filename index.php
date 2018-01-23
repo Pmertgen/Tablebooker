@@ -12,10 +12,10 @@ if (isset($_POST["submitguests"]))
     }
         else {
                 echo( "Please choose a number of guests</br>");
-                header("../bookme.php");
+                
               }
 }
 
 
-require_once("../private/dbconn.php");
+require_once("dbconn.php");
 
