@@ -17,6 +17,6 @@ if ($dbconn->connect_errno){
     exit();
 
 } else{
-    echo "You are connected to the DB.</br>";
+    echo "(You are connected to the DB)</br>";
     require ('ask_db.php');
    }
