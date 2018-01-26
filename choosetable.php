@@ -1,3 +1,13 @@
 <?php
 
-echo __FILE__ . " has no content yet.";
+
+if (isset($_POST['submitguests'])) {
+
+	$table = $_POST['choosetable'];
+	echo "You chose table number: " . $table;
+
+} else{
+
+	echo "Please select a table to reserve</br>";
+
+}
