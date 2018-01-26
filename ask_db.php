@@ -16,7 +16,7 @@
     }
 
 //Show tables with enough seats
-    $possible_tables = implode(",", $table_no);
+    $possible_tables = implode(", ", $table_no);
     echo "<h3>The following table(s) are suitable: " . $possible_tables . "</h3></br>";
 
 //Let the user choose one table
@@ -26,6 +26,8 @@
         <input type="text" name="choosetable">
         <button class="btn btn-warning" type="submit" name="submitguests">Reserve table</button>
     </form>
-    </body>
-    </html>
 
+
+<?php
+require_once'choosetable.php';
+?>
