@@ -11,6 +11,9 @@
 // suppress errors
 error_reporting(0);
 
+$time = $_POST["time"];
+$date = $_POST["date"];
+
 if (isset($_POST["submitguests"]))
 {
   $people = $_POST["people"];

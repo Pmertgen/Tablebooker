@@ -24,10 +24,11 @@
 ?>
     <form action="choosetable.php" method="post">
         <input type="text" name="choosetable">
-        <button class="btn btn-warning" type="submit" name="submitguests">Reserve table</button>
+        <button class="btn btn-warning" type="submit" name="reserve">Reserve table</button>
+
     </form>
 
 
 <?php
-require_once'choosetable.php';
+require "choosetable.php";
 ?>
