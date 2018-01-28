@@ -11,21 +11,13 @@
 // suppress errors
 error_reporting(0);
 
-$time = $_POST["time"];
-$date = $_POST["date"];
+
 
 if (isset($_POST["submitguests"]))
 {
   $people = $_POST["people"];
 
-    if($people>0)
-    {
-        echo "<h2>You chose to book for " . $people . " people.</h2></br>";
-    }
-        else {
-                echo( "Please choose a number of guests</br>");
-                
-              }
+    echo "<h2>You chose to book for " . $people . " people.</h2></br>";
 }
 
 require_once("dbconn.php");
